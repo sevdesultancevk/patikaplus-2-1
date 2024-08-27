@@ -1,0 +1,111 @@
+/* navbar s */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e7e3e3;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #333
+  }
+/* navbar e*/
+/* titles s*/
+h1{
+ 
+    text-align: center;
+    color: #333;
+    font-size:36px;
+    text-transform: capitalize;
+}
+h2,h3{
+    color: #333;
+    margin-left: 150px;
+}
+/* titles e */
+/* text s*/
+p{
+    color: #666;
+    font-family: Arial, sans-serif;
+}
+/* text e*/
+body{
+    background-color: #f4f4f4;
+}
+/* card s*/
+.icerik{
+ 
+    height: auto; 
+    margin: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:10px 10px gray;
+    align-items: center;
+    
+}
+/* card e*/
+
+/* links */
+a{
+    color: deeppink;
+}
+/* post.html */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#333;
+    color: #666;
+    text-align: center;
+
+}
+ 
+
+
+.text{
+
+    height: auto;
+    border: #333 2px solid;
+    border-radius: 10px;
+    display: flex; /*yan yana koyma*/ 
+    margin: 50px;
+
+    
+}
+.card{
+
+    height: auto; 
+    margin: 50px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:10px 10px gray;
+    align-items: center;
+    overflow: auto;
+}
+
+
+
